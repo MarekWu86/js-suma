@@ -1,8 +1,10 @@
 var liczbaPierwsza = 34;
 var liczbaDruga = 59;
 
-function() {
-
-  var suma = liczbaPierwsza + liczbaDruga;
-    return suma;   
+function dajSume(a, b) {
+  var suma = a + b;
+  
+  return suma;
   }
+
+  console.log(dajSume(liczbaPierwsza, liczbaDruga));
